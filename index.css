@@ -1,0 +1,160 @@
+/* INICIO Barra Top do site*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans&family=Open+Sans&family=Oxygen&family=Righteous&family=Roboto&family=Ubuntu:wght@700&display=swap');
+*{
+    text-decoration: unset;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1200px;
+    background-color: white;
+}
+a img[src="_imagem/icon.png"]{
+    width: 60px;
+    /*DAQUI PRA BAIXO É TUDO*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 50vw;
+    margin-top: 5.5vh;
+}
+header{
+    position: absolute;
+}
+#contatos{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color: red;
+    background-position: left 200px;
+    border: 10px solid red;
+    width: 20000px;
+    height: 130px;
+}
+#a1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 50vw;
+    margin-top: 5.35vh;
+    font-size: 23px;
+}
+#a2{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 27vw;
+    margin-top: 5.5vh;
+    font-size: 23px;
+}
+#a3{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left:11vw;
+    margin-top: 5.5vh;
+    font-size: 23px;
+}
+#a4{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 87vw;
+    margin-top: 5.5vh;
+    font-size: 23px;
+}
+#a5{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left:72vw;
+    margin-top: 5.5vh;
+    font-size: 23px;
+}
+#a2:hover, #a3:hover, #a4:hover, #a5:hover{
+    padding-top: 25px;
+    padding-bottom: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.1s;
+}
+/* FIM Barra Top do site*/
+ 
+/*---------------------------------------------*/
+
+/*INICIO DO FORMULARIO*/
+form[action="mailto:gustavo.schulr@gmail.com"]{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left:100px;
+    margin-top: 000px;
+}
+input[type="email"], input[type="password"]{
+    border-color: rgba(136, 18, 18, 0.801);
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,rgb(199, 0, 0),rgb(255, 0, 0));
+}
+input[type="email"]:focus, input[type="password"]:focus{
+    outline: none;
+}
+input[type="submit"]{
+    color: white;
+    cursor: pointer;
+    border-color: rgba(136, 18, 18, 0.801);
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,rgb(199, 0, 0),rgb(255, 0, 0));
+}
+label{
+    color: black;
+}
+input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color: white;
+}
+
+/*FIM DO FORMULARIO*/
+
+/* --- EFEITO PARALAX ---*/
+
+section{
+    width: 100%;
+    text-align: center;
+}
+section:nth-of-type(1){
+    background-image: url("_imagem/fundo_image1.jpg");
+}
+section:nth-of-type(3){
+    background-image: url("_imagem/fundo_image2.jpg");
+}
+section:nth-of-type(5){
+    background-image: url("_imagem/fundo_image3.jpg");
+}
+section:nth-of-type(7){
+    background-image: url("_imagem/fundo_image\ 4.jpg");
+}
