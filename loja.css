@@ -256,15 +256,16 @@ footer{
     position: relative;
     text-align: center;
     top: 75px;
+    color: rgb(255, 0, 0);
 }
 /* --- FIM FOOTER --- */
 
     @media screen and (min-width: 1680px){
         .item1{
-            left: 13%;
+            left: 9%;
         }
         #todos{
-            width: 80%;
+            width: 85%;
         }
     }
     @media screen and (max-width: 1255px){
@@ -312,6 +313,9 @@ footer{
         }
     }
     @media screen and (max-width: 835px){
+        #prod{
+            top: 275px;
+        }
         header#header{
             height:250px;
         }
@@ -435,3 +439,13 @@ footer{
             width: 100%;
         }
     }
+    /* --- BARRA LATERAL INICIO --- */
+    ::-webkit-scrollbar{
+        background-color: white;
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: red;
+    }
+    /* --- BARRA LATERAL FIM --- */

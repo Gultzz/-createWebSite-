@@ -161,8 +161,10 @@ header#header{
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.1s;
 }
 #enviar:hover{
+    transition: 0.1s;
     background-color: white;
     color: red;
 }
@@ -233,3 +235,13 @@ footer{
     transition: 0.5s;
 }
 /* --- FIM FOOTER --- */
+/* --- BARRA LATERAL INICIO --- */
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+/* --- BARRA LATERAL FIM --- */

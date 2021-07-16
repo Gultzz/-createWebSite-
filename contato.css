@@ -146,3 +146,153 @@ footer{
     transition: 0.5s;
 }
 /* --- FIM FOOTER --- */
+/* --- BARRA LATERAL INICIO --- */
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+/* --- BARRA LATERAL FIM --- */
+
+/* --- CONTEUDO SITE --- */
+#borda{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:linear-gradient(45deg, rgb(179, 0, 0), red);
+    width: 400px;
+    height: 460px;
+    border-radius: 10px;
+}
+#borda #link a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -145px;
+    width: 60px;
+    margin-left: -130px;
+}
+#borda #skype a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -40px;
+    margin-left: -130px;
+    width: 60px;
+}
+#borda #discord img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    margin-top: 50px;
+    margin-left: -130px;
+}
+#borda #whatsapp img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    margin-top: 150px;
+    margin-left: -130px;
+}
+#borda #discord h1{
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 49px;
+    margin-left: 20px;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+#link{
+    background-color: white;
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: 80px;
+}
+#skype{
+    background-color: white;
+    width: 350px;
+    margin-top: 23px;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: 80px;
+}
+#discord{
+    background-color: white;
+    width: 350px;
+    margin-top: 13px;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: 80px;
+}
+#whatsapp{
+    background-color: white;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: 80px;
+}
+#borda #cont h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top: -209px;
+}
+#borda #skype h1{
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -43px;
+    margin-left: 30px;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+#borda #link h1{
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -146px;
+    margin-left: 20px;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+#borda #whatsapp h1{
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 148px;
+    margin-left: 20px;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}

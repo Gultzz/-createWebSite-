@@ -146,3 +146,14 @@ footer{
     transition: 0.5s;
 }
 /* --- FIM FOOTER --- */
+
+/* --- BARRA LATERAL INICIO --- */
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+/* --- BARRA LATERAL FIM --- */
