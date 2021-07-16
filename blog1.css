@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans&family=Open+Sans&family=Oxygen&family=Righteous&family=Roboto&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* --- INICIO HEADER --- */
+
+header#header{
+    background: red;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+#a1{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 35%;
+    padding:12px 20px;
+}
+#a3{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -20%;
+    padding:12px 20px;
+}
+#logosin{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 0;
+}
+#logosin:hover{
+    padding: 10px;
+}
+#a4{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 20%;
+    padding:12px 40px;
+}
+#a2{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -38%;
+    padding:12px 30px;
+}
+#a1:hover, #a2:hover, #a3:hover, #a4:hover{
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+/* --- FIM HEADER --- */
+
+#imgloja{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 700px;
+    height: 390px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -240px;
+    margin-top: -10px;
+}
+#imgloja:hover{
+    max-width: 700px;
+}
+#text{
+    color: white;
+    background-color: red;
+    border:10px solid red;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 330px;
+    margin-top: 30px;
+    width: 400px;
+    height: 500px;
+}
+#botao{
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    width: 130px;
+    height: 50px;
+    color: red;
+    font-family:unset;
+    font-size: 15px;
+}
+#uldiv{
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 300px;
+}
+#specss{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -110px;
+}
+#text #title{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -220px;
+}
+#text #valor{
+    color: white;
+    position: relative;
+    top: 320px;
+}
+#text h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+#bordadobagui{
+    background-color: blue;
+}
+/* --- FIM SITE --- */
