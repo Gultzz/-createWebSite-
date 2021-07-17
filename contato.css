@@ -178,6 +178,7 @@ footer{
     margin-top: -145px;
     width: 60px;
     margin-left: -130px;
+    filter: brightness(110%) saturate(180%);
 }
 #borda #skype a img{
     position: absolute;
@@ -187,6 +188,7 @@ footer{
     margin-top: -40px;
     margin-left: -130px;
     width: 60px;
+    filter: brightness(110%) saturate(180%);
 }
 #borda #discord img{
     position: absolute;
@@ -196,6 +198,7 @@ footer{
     width: 65px;
     margin-top: 50px;
     margin-left: -130px;
+    filter: brightness(110%) saturate(180%);
 }
 #borda #whatsapp img{
     position: absolute;
@@ -205,6 +208,7 @@ footer{
     width: 70px;
     margin-top: 150px;
     margin-left: -130px;
+    filter: brightness(110%) saturate(180%);
 }
 #borda #discord h1{
     font-size: 17px;
@@ -219,7 +223,7 @@ footer{
     width: 100%;
 }
 #link{
-    background-color: white;
+    background: linear-gradient(35deg, rgb(200, 200, 200), rgb(255, 255, 255));
     width: 350px;
     margin-top: 45px;
     margin-left: 25px;
@@ -227,7 +231,7 @@ footer{
     height: 80px;
 }
 #skype{
-    background-color: white;
+    background: linear-gradient(35deg, rgb(200, 200, 200), rgb(255, 255, 255));
     width: 350px;
     margin-top: 23px;
     margin-left: 25px;
@@ -235,7 +239,7 @@ footer{
     height: 80px;
 }
 #discord{
-    background-color: white;
+    background: linear-gradient(35deg, rgb(200, 200, 200), rgb(255, 255, 255));
     width: 350px;
     margin-top: 13px;
     margin-left: 25px;
@@ -243,7 +247,7 @@ footer{
     height: 80px;
 }
 #whatsapp{
-    background-color: white;
+    background: linear-gradient(35deg, rgb(200, 200, 200), rgb(255, 255, 255));
     width: 350px;
     margin-top: 20px;
     margin-left: 25px;
@@ -355,5 +359,10 @@ footer{
             left: 75%;
             width: 40px; 
             margin-right: 5px;
+        }
+    }
+    @media screen and (max-height: 620px){
+        #borda{
+            margin-top: 300px;
         }
     }

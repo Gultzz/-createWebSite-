@@ -315,6 +315,10 @@ footer{
         }
     }
     @media screen and (max-width: 835px){
+        #img1,#img2,#img3{
+            left: 0%;
+            visibility: hidden;
+        }
         body{
             width: 100%;
         }
