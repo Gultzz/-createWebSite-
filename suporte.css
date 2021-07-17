@@ -130,25 +130,25 @@ header#header{
     background-image: url(image/pessoa.png);
     background-size: 27px;
     background-repeat: no-repeat;
-    background-position: 5px;
+    background-position: 5px 5px;
 }
 #email{
     background-image: url(image/email.png);
     background-size: 27px;
     background-repeat: no-repeat;
-    background-position: 5px;
+    background-position: 5px 4px;
 }
 #assunto{
     background-image: url(image/assunto.png);
     background-size: 27px;
     background-repeat: no-repeat;
-    background-position: 5px;
+    background-position: 5px 4px;
 }
 #area{
     background-image: url(image/especs.png);
     background-size: 27px;
     background-repeat: no-repeat;
-    background-position: 5px 5px;
+    background-position: 5px 4px;
     background-attachment: scroll;
     max-width: 400px;
     max-height: 190px;
@@ -245,3 +245,64 @@ footer{
     background-color: red;
 }
 /* --- BARRA LATERAL FIM --- */
+@media screen and (max-width: 835px){
+    #prod{
+        top: 275px;
+    }
+    header#header{
+        height:250px;
+    }
+    #a1{
+        margin-top: -100px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #a2{
+        margin-top: -50px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #a3{
+        margin-top: 0px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #a4{
+        margin-top: 50px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #logosin{
+        margin-top: 100px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #item1{
+        margin-top: 250px;
+    }
+    .item1{
+        left: 25%;
+        margin-left: 60px 0;
+    }
+    #todos{
+        width: 100%;
+    }
+    #img1{
+        bottom: 20px;
+        left: 95%;
+        width: 40px; 
+        margin-right: 5px;
+    }
+    #img2{
+        bottom: 20px;
+        left: 85%;
+        width: 40px; 
+        margin-right: 50px;
+    }
+    #img3{
+        bottom: 20px;
+        left: 75%;
+        width: 40px; 
+        margin-right: 5px;
+    }
+}

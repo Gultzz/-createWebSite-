@@ -101,6 +101,8 @@ header#header{
 
 
 .item1{
+    min-width: 250px;
+    max-width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -313,10 +315,17 @@ footer{
         }
     }
     @media screen and (max-width: 835px){
+        body{
+            width: 100%;
+        }
+        ::-webkit-scrollbar{
+            width: 1px;
+        }
         #prod{
             top: 275px;
         }
         header#header{
+            width: 100%;
             height:250px;
         }
         #a1{
@@ -350,6 +359,13 @@ footer{
         .item1{
             left: 25%;
             margin-left: 60px 0;
+        }
+        .item1 img{
+            width: 100%;
+        }
+        .item1 a img[src="image/fundo_site2.jpg"]:hover{
+            height: 155px;
+            width: 280px;
         }
         #todos{
             width: 100%;

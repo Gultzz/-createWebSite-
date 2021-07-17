@@ -225,3 +225,64 @@ header#header{
     height: 55px;
     transition: 0.2s;
 }
+@media screen and (max-width: 835px){
+    #prod{
+        top: 275px;
+    }
+    header#header{
+        height:250px;
+    }
+    #a1{
+        margin-top: -100px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #a2{
+        margin-top: -50px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #a3{
+        margin-top: 0px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #a4{
+        margin-top: 50px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #logosin{
+        margin-top: 100px;
+        margin-left: 0%;
+        width: 100%;
+    }
+    #item1{
+        margin-top: 250px;
+    }
+    .item1{
+        left: 25%;
+        margin-left: 60px 0;
+    }
+    #todos{
+        width: 100%;
+    }
+    #img1{
+        bottom: 20px;
+        left: 95%;
+        width: 40px; 
+        margin-right: 5px;
+    }
+    #img2{
+        bottom: 20px;
+        left: 85%;
+        width: 40px; 
+        margin-right: 50px;
+    }
+    #img3{
+        bottom: 20px;
+        left: 75%;
+        width: 40px; 
+        margin-right: 5px;
+    }
+}
