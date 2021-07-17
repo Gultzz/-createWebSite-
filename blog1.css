@@ -226,10 +226,21 @@ header#header{
     transition: 0.2s;
 }
 @media screen and (max-width: 835px){
+    #img1,#img2,#img3{
+        left: 0%;
+        visibility: hidden;
+    }
+    body{
+        width: 100%;
+    }
+    ::-webkit-scrollbar{
+        width: 1px;
+    }
     #prod{
         top: 275px;
     }
     header#header{
+        width: 100%;
         height:250px;
     }
     #a1{
@@ -263,6 +274,13 @@ header#header{
     .item1{
         left: 25%;
         margin-left: 60px 0;
+    }
+    .item1 img{
+        width: 100%;
+    }
+    .item1 a img[src="image/fundo_site2.jpg"]:hover{
+        height: 155px;
+        width: 280px;
     }
     #todos{
         width: 100%;

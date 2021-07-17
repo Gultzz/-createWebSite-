@@ -289,25 +289,29 @@ footer{
     }
     #img1{
         bottom: 20px;
-        left: 95%;
+        left: 0%;
         width: 40px; 
         margin-right: 5px;
+        visibility: hidden;
     }
     #img2{
         bottom: 20px;
-        left: 85%;
+        left: 0%;
         width: 40px; 
         margin-right: 50px;
+        visibility: hidden;
     }
     #img3{
         bottom: 20px;
-        left: 75%;
+        left: 0%;
         width: 40px; 
         margin-right: 5px;
+        visibility: hidden;
     }
 }
 @media screen and (max-height: 620px){
     #form{
-        margin-top: 300px;
+        margin-top: 330px;
+        width: 90%;
     }
 }
