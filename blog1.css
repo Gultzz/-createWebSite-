@@ -50,9 +50,9 @@ header#header{
     margin-left: -20%;
     padding:12px 20px;
 }
-#logosin{
+#logosin h1{
     font-family: 'Yantramanav', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -152,12 +152,16 @@ header#header{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 30px;
-    margin-left: 60px;
+    margin-top: 20px;
+    margin-left: 35px;
     width: 300px;
 }
+#uldiv ul{
+    font-size: 17px;
+    font-weight: 500;
+}
 #specss{
-    width: 300px;
+    width: 340px;
     position: absolute;
     left: 50%;
     top: 50%;

@@ -174,7 +174,7 @@ header#header{
 }
 #ul li{
     position: relative;
-    left: 14%;
+    left: 12%;
     text-align: center;
     float: left;
     margin-top: 10px;
@@ -182,7 +182,7 @@ header#header{
 }
 #ul1 li{
     position: relative;
-    left: 11%;
+    left: 8%;
     text-align: center;
     float: left;
     margin-top: 10px;
@@ -451,6 +451,16 @@ footer{
         }
     }
     @media screen and (max-width: 500px){
+        #ul li{
+            margin-left: 6%;
+            font-weight: 100;
+            font-size: 14px;
+        }
+        #ul1 li{
+            margin-left: 6%;
+            font-weight: 100;
+            font-size: 14px;
+        }
         .item1{
             left: 0%;
             margin-left: 60px 0;
