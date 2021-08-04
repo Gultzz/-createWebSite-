@@ -24,30 +24,19 @@
     </header>
     <!--AQUI É AS INFOS TOP-->
 
-    <!--DAQUI ATÉ-->
-        <form action="suporte-enviado.php" method="POST">
-            <div id="form">
-                <div>
-                    <label for="name">Nome Completo</label><br>
-                    <input name="name" id="name" type="text" placeholder="Digite seu nome" required>
-                </div><br>
-                <div>
-                    <label for="email">Email</label><br>
-                    <input name="email" id="email" type="email" placeholder="Digite um email" required>
-                </div><br>
-                <div>
-                    <label for="assunto">Assunto</label><br>
-                    <input name="assunto" id="assunto" type="text" placeholder="Digite o assunto" required>
-                </div><br>
-                <div>
-                    <label for="area">Especifique o seu problema aqui</label><br>
-                    <textarea name="area" id="area" cols="30" rows="1" placeholder="Digite a sua questão aqui" required></textarea>
-                </div><br>
-                <div>
-                    <input id="enviar" type="submit" value="ENVIAR">
-                </div>
-            </div>
-        </form>
+    <!--DAQUI ATÉ--><?php 
+        $nome = isset($_POST["name"])?$_POST["name"]:"ERROR";
+        $email = isset($_POST["email"])?$_POST["email"]:"ERROR";
+        $ass = isset($_POST["assunto"])?$_POST["assunto"]:"ERROR";
+        $prob = isset($_POST["area"])?$_POST["area"]:"ERROR";
+        echo "  <center style='color:red;'><br><br><br><br>
+                    <h1>SUPORTE ENVIADO</h1><br>
+                    <h2>Nome<br> $nome</h2><br><br>
+                    <h2>Email<br> $email</h2><br><br>
+                    <h2>Assunto<br> $ass</h2><br><br>
+                    <h2 style='width: 700px;'>Problema<br> $prob</h2><br><br>
+                </center>"
+        ?>
     <!--AQUI É CONTEUDO DO SITE-->
 
     <!--DAQUI ATÉ-->

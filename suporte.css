@@ -97,7 +97,9 @@ header#header{
     transition: 0.2s;
 }
 /* --- FIM HEADER --- */
-
+center{
+    font-family: 'Yantramanav', sans-serif;
+}
 
 #form{
     font-family: 'Montserrat', sans-serif;
