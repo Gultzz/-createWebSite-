@@ -161,7 +161,6 @@ footer{
     background-color: red;
 }
 /* --- BARRA LATERAL FIM --- */
-
 @media screen and (max-width: 1100px){
     #prod{
         top: 275px;

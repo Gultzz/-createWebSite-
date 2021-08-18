@@ -469,6 +469,11 @@ footer{
             width: 100%;
         }
     }
+    @media screen and (min-width: 1977px){
+        #todos{
+            width: 84%;
+        }
+    }
     /* --- BARRA LATERAL INICIO --- */
     ::-webkit-scrollbar{
         background-color: white;
